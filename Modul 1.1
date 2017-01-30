@@ -1,0 +1,35 @@
+Faktorial dan Pangkat
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package bangsat;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Jay
+ */
+public class no1 {
+    public static void main(String[] args) {
+        int f,p;
+        Scanner cin = new Scanner(System.in);
+        System.out.print("Masukkan angka = ");
+        int n = cin.nextInt();
+        f = 1;
+        p = 1;
+        for (int i = 1; i <= n; i++) {
+            f=f*i;
+            p=p*2;
+                    
+        }
+        
+        System.out.println("Input = "+n);
+        System.out.println("Hasil faktorial = "+f);
+        System.out.println("Hasil pangkat = "+p);
+             
+    }
+}
